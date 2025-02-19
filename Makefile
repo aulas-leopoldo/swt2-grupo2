@@ -9,3 +9,6 @@ $(TARGET): $(TARGET).c
 
 clean:
 	rm -f $(TARGET)
+
+run:
+	./$(TARGET)
